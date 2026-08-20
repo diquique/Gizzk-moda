@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIZZK MODA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GIZZK MODA</h1>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <p class="tag">NOVA COLEÇÃO</p>
+        <h2>Seu estilo,<br>do seu jeito.</h2>
+        <p>Moda jovem, moderna e feita para você.</p>
+        <a class="botao" href="#produtos">Ver produtos</a>
+      </div>
+    </section>
+
+    <section id="produtos">
+      <h2>Produtos em destaque</h2>
+      <div class="produtos">
+        <article class="produto">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Camiseta">
+          <h3>Camiseta GIZZK</h3>
+          <p>R$ 59,90</p>
+          <button onclick="adicionar('Camiseta GIZZK')">Adicionar</button>
+        </article>
+        <article class="produto">
+          <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80" alt="Calça">
+          <h3>Calça Street</h3>
+          <p>R$ 119,90</p>
+          <button onclick="adicionar('Calça Street')">Adicionar</button>
+        </article>
+        <article class="produto">
+          <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=800&q=80" alt="Moletom">
+          <h3>Moletom GIZZK</h3>
+          <p>R$ 149,90</p>
+          <button onclick="adicionar('Moletom GIZZK')">Adicionar</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2>Sobre a GIZZK MODA</h2>
+      <p>Uma loja criada para trazer estilo, personalidade e peças que combinam com diferentes momentos.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 GIZZK MODA • Todos os direitos reservados.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
